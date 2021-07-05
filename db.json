@@ -54,6 +54,17 @@
         "controlled"
       ],
       "correctIndex": 1
+    },
+    {
+      "prompt": "Does this work for you?",
+      "answers": [
+        "Hello",
+        "hi",
+        "bye",
+        "good morning"
+      ],
+      "correctIndex": "2",
+      "id": 7
     }
   ]
 }

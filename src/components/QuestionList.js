@@ -45,9 +45,9 @@ function QuestionList() {
     .then(updatedQuestion => {
       const updatedQuestions = questions.map((question) => {
         if (question.id === updatedQuestion.id) 
-          return updatedQuestion
-          return question
-      })
+            return updatedQuestion
+            return question
+        })
       setQuestions(updatedQuestions)
     })
   }
